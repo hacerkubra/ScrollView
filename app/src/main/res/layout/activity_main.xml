@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/peyniryarisi" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:text="Büyük Peynir Yarışı"
+                    android:textSize="18sp"
+                    style="@style/TextViewStil"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/TextViewStil"
+                    android:text="Yönetmen: Rasmus A. Sivertsen "
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/TextViewStil"
+                    android:text="Vizyon Tarihi: 06.04.2018"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Louis Magpie, memleketi ve komşu köyü arasındaki Geleneksel Peynir Yarışı'nı haber alır ve adeta büyülenir. Sonunda gerçek bir yarış şampiyonu olduğunu kanıtlamak için bir şans elde etmiştir! Bu coşkusuyla hemen harekete geçer, takımın zaferi için tüm evini ve arkadaşı mucit Alfie'nin muhteşem atölyesini bahse koyma konusunda tereddüt etmez. Şüphesiz, yerel peynir fabrikasının müdürü olan rakibi Clapton, bu fırsatı kaçırmak istemeyecektir! En iyi arkadaşı Luca the Hedgehog ve zeki Alfie takımdayken, Louis'in kazanacaklarından hiç şüphesi yoktur. Bununla birlikte, Clapton'un ekibinin tuhaf bir komedyen ve şiddetli bir goril tarafından desteklendiğini öğrenince kendine güveni biraz olsun kırılır. Bakalım Alfie Louis'i affedecek mi? Arkadaşlar her şeye rağmen zafer kazanacak mı?"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</ScrollView>
